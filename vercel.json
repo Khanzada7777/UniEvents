@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "http://unievent.runasp.net/api/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
